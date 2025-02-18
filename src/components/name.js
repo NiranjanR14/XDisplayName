@@ -30,7 +30,7 @@ const Display = () => {
             <input type="text" placeholder="Last Name" onChange={(e) => setLastName(e.target.value)} />
             <button type='submit'>Submit</button>
             </form>
-            {flag && (<p>Full Name : {firstName} {lastName}</p>) }
+            {flag && (<p>Full Name: {firstName} {lastName}</p>) }
         </div>
     );
 };
